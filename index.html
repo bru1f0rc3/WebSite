@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <style>
+        #registerform {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        #registerform h2 {
+            margin-top: 0;
+            text-align: center;
+            color: #bb86fc;
+        }
+
+        #registerform label {
+            display: block;
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+
+        #registerform input[type="text"],
+        #registerform input[id="regemail"],
+        #registerform input[id="passwordreg"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #333;
+            border-radius: 4px;
+            background-color: #2c2c2c;
+            color: #ffffff;
+        }
+
+        #registerform button[type="submit"],
+        button[id=btn]{
+            width: 100%;
+            padding: 10px;
+            background-color: #bb86fc;
+            border: none;
+            border-radius: 4px;
+            color: #ffffff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 4%;
+        }
+
+        #registerform input[type="submit"]:hover {
+            background-color: #9c66e0;
+        }
+
+        #registerform h2 {
+            margin-top: 0;
+            text-align: center;
+            color: #bb86fc;
+        }
+
+
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<form id="registerform">
+    <h2>Register</h2>
+    <label >Email:</label>
+    <input type="email" id="regemail" name="email" required>
+
+    <label >Password:</label>
+    <input type="password" id="passwordreg" name="password" required>
+
+    <button type="submit">Регистрация</button>
+    <a href="page_auth.html">Авторизация</a>
+</form>
+
+<script type="module" src="dist/app.js"></script>
+</body>
+</html>
