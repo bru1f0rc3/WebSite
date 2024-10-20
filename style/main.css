@@ -7,12 +7,6 @@
     max-width: 400px;
 }
 
-#registerform h2 {
-    margin-top: 0;
-    text-align: center;
-    color: #bb86fc;
-}
-
 #registerform label {
     display: block;
     margin-bottom: 8px;
@@ -54,17 +48,6 @@ button[id=btn]{
     color: #bb86fc;
 }
 
-
-body {
-    background-color: #121212;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
 
 body {
     background-color: #121212;
