@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Авторизация</title>
+    <link rel="stylesheet" type="text/css" href="../style/main.css"/>
+    <link rel="stylesheet" type="text/css" href="../style/header.css"/>
+</head>
+<body>
+<header class="header">
+    <div class="header__icon">
+    </div>
+    <div class="header__content">
+        <nav>
+            <a href="#">Главная</a>
+            <a href="#">Контакты</a>
+            <a href="page_auth.ejs">Вход в аккаунт</a>
+        </nav>
+    </div>
+    <img src="../images/header_icon.jpg" height="50px" width="50px">
+    <i class="fas fa-bars"></i>
+</header>
+<form id="authform">
+    <h2>Авторизация</h2>
+    <input type="email" id="authemail" placeholder="Email" required>
+    <input type="password" id="passwordauth" placeholder="Password" required>
+    <button type="submit">Авторизация</button>
+    <div id="message">
+
+    </div>
+</form>
+
+
+<script type="module" src="../dist/app.js"></script>
+</body>
+</html>

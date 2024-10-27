@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style/header.css"/>
+    <link rel="stylesheet" type="text/css" href="../style/main.css"/>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+<body>
+<header class="header">
+    <div class="header__icon">
+    </div>
+    <div class="header__content">
+        <nav>
+            <a href="#">Главная</a>
+            <a href="#">Контакты</a>
+            <a href="page_auth.ejs">Вход в аккаунт</a>
+        </nav>
+    </div>
+    <img src="../images/header_icon.jpg" height="50px" width="50px">
+    <i class="fas fa-bars"></i>
+</header>
+<form id="registerform">
+    <h2>Регистрация</h2>
+    <label >Email:</label>
+    <input type="email" id="regemail" name="email" required>
+
+    <label >Password:</label>
+    <input type="password" id="passwordreg" name="password" required>
+
+    <button type="submit">Регистрация</button>
+    <div id="message">
+
+    </div>
+</form>
+
+
+
+<script type="module" src="../dist/app.js"></script>
+</body>
+</html>

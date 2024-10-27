@@ -1,0 +1,41 @@
+/* Общие стили для Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Распределяет элементы по краям */
+    background-color: #333;
+    color: white;
+    padding: 25px 20px;
+    direction: rtl; /* Устанавливает направление текста справа налево */
+}
+
+/* Стили для иконки */
+.header__icon {
+    margin-right: 20px; /* Отступ слева для иконки */
+}
+
+/* Стили для контента хедера */
+.header__content {
+    flex-grow: 1; /* Занимает оставшееся пространство */
+    text-align: right; /* Выравнивание текста справа */
+}
+
+/* Стили для навигации */
+.header__content nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px; /* Отступ между ссылками */
+}
+
+.header__content nav a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для контейнера формы */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Вычитаем высоту хедера */
+    margin-top: 60px; /* Отступ сверху, чтобы не перекрывать хедер */
+}

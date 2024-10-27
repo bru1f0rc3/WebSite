@@ -1,0 +1,117 @@
+#registerform {
+    background-color: #1e1e1e;
+    padding: 60px;
+    margin-top: 220px;
+    margin-left: 675px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+}
+
+#registerform label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+#registerform input[type="text"],
+#registerform input[id="regemail"],
+#registerform input[id="passwordreg"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+#registerform button[type="submit"],
+button[id=btn]{
+    width: 100%;
+    padding: 10px;
+    background-color: #bb86fc;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 4%;
+}
+
+#registerform input[type="submit"]:hover {
+    background-color: #9c66e0;
+}
+
+#registerform h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #bb86fc;
+}
+
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#authform {
+    background-color: #1e1e1e;
+    padding: 60px;
+    margin-top: 220px;
+    margin-left: 675px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+}
+
+#registerform h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #bb86fc;
+}
+
+#authform h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #bb86fc;
+}
+
+#authform label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+#authform input[id=authemail],
+#authform input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+#authform button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #bb86fc;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#authform input[type="submit"]:hover {
+    background-color: #9c66e0;
+}
